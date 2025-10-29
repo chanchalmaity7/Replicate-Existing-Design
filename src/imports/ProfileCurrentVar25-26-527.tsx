@@ -47,12 +47,12 @@ import img from "figma:asset/4f96b473aebcef35e924b1081c8286a1ecc79b2c.png";
 import { imgRectangle33, imgAsset11 } from "./svg-bn3pa";
 
 function Frame() {
-  return <div className="absolute bg-repeat bg-size-[612px_612px] bg-top-left h-[679px] left-0 top-[345px] w-[1440px]" style={{ backgroundImage: `url('${imgFrame77064407}')` }} />;
+  return <div className="absolute bg-repeat bg-size-[612px_612px] bg-top-left h-[679px] left-0 top-[345px] w-full" style={{ backgroundImage: `url('${imgFrame77064407}')` }} />;
 }
 
 function Sky() {
   return (
-    <div className="absolute h-[351px] left-0 overflow-clip top-0 w-[1440px]" data-name="sky 1">
+    <div className="absolute h-[351px] left-0 overflow-clip top-0 w-full" data-name="sky 1">
       <div className="absolute bg-[#aee5f5] bottom-[18.52%] left-0 right-0 top-[58.12%]" data-name="Sky 03" />
       <div className="absolute bg-[#e9f9fe] bottom-[-7.98%] left-0 right-0 top-[81.48%]" data-name="Sky 4" />
       <div className="absolute bg-[#6ed2f0] bottom-[41.88%] left-0 right-0 top-[29.06%]" data-name="Sky 02" />
@@ -1665,7 +1665,7 @@ function Frame1() {
 
 export default function ProfileCurrentVar() {
   return (
-    <div className="bg-[#1b1b1b] relative size-full" data-name="Profile - current - var2.5">
+    <div className="bg-[#1b1b1b] relative min-h-screen w-full overflow-x-hidden" data-name="Profile - current - var2.5">
       <Frame />
       <Sky />
       <C2 />
