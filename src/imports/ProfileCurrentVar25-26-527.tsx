@@ -47,12 +47,12 @@ import img from "figma:asset/4f96b473aebcef35e924b1081c8286a1ecc79b2c.png";
 import { imgRectangle33, imgAsset11 } from "./svg-bn3pa";
 
 function Frame() {
-  return <div className="absolute bg-repeat bg-size-[612px_612px] bg-top-left h-[679px] left-0 top-[345px] w-full" style={{ backgroundImage: `url('${imgFrame77064407}')` }} />;
+  return <div className="absolute bg-repeat bg-size-[612px_612px] bg-top-left h-[679px] left-0 top-[345px] w-[1440px]" style={{ backgroundImage: `url('${imgFrame77064407}')` }} />;
 }
 
 function Sky() {
   return (
-    <div className="absolute h-[351px] left-0 overflow-clip top-0 w-full" data-name="sky 1">
+    <div className="absolute h-[351px] left-0 overflow-clip top-0 w-[1440px]" data-name="sky 1">
       <div className="absolute bg-[#aee5f5] bottom-[18.52%] left-0 right-0 top-[58.12%]" data-name="Sky 03" />
       <div className="absolute bg-[#e9f9fe] bottom-[-7.98%] left-0 right-0 top-[81.48%]" data-name="Sky 4" />
       <div className="absolute bg-[#6ed2f0] bottom-[41.88%] left-0 right-0 top-[29.06%]" data-name="Sky 02" />
@@ -707,7 +707,7 @@ function DirectionBoard() {
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle35} />
         </div>
       </div>
-      <div className="absolute bottom-[59.11%] font-['ThaleahFat:Medium',sans-serif] leading-[0.68] left-[calc(50%-4.225px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-38.151px_-46.665px] mask-size-[149px_182px] not-italic text-[23.193px] text-center text-nowrap text-white top-[23.82%] tracking-[1.6235px] translate-x-[-50%] uppercase whitespace-pre" style={{ maskImage: `url('${imgRectangle33}')` }}>
+      <div className="absolute bottom-[59.11%] font-['ThaleahFat:Medium',sans-serif] leading-[0.68] left-[calc(50%-4.225px)] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-38.151px_-46.665px] mask-size-[149px_182px] not-italic text-[23.193px] text-center text-nowrap text-white top-[23.82%] tracking-[1.6235px] translate-x-[-50%] uppercase whitespace-pre font-bold" style={{ maskImage: `url('${imgRectangle33}')` }}>
         <p className="mb-0">mining</p>
         <p>site</p>
       </div>
@@ -1379,7 +1379,7 @@ function Wallet() {
 
 function LeaderboardRank() {
   return (
-    <div className="absolute h-[12.184px] left-[calc(50%-105.256px)] top-[410.19px] translate-x-[-50%] w-[220.563px]" data-name="leaderboard rank:">
+    <div className="absolute h-[12.184px] left-[calc(50%-110px)] top-[410.19px] translate-x-[-50%] w-[220.563px]" data-name="leaderboard rank:">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 221 13">
         <g id="leaderboard rank:">
           <path d={svgPaths.pcfaa080} fill="url(#paint0_linear_1_715)" id="Vector" />
@@ -1665,7 +1665,7 @@ function Frame1() {
 
 export default function ProfileCurrentVar() {
   return (
-    <div className="bg-[#1b1b1b] relative min-h-screen w-full overflow-x-hidden" data-name="Profile - current - var2.5">
+    <div className="relative" data-name="Profile - current - var2.5">
       <Frame />
       <Sky />
       <C2 />

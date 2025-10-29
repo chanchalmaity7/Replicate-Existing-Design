@@ -1,0 +1,21 @@
+/* Fixed design for exact Figma match */
+[data-name="Profile - current - var2.5"] {
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  position: relative;
+  background: #1b1b1b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  min-width: 1440px;
+  background: #1b1b1b;
+}
+
+/* Ensure all elements are positioned correctly */
+.absolute {
+  position: absolute !important;
+}
