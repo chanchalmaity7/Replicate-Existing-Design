@@ -936,7 +936,7 @@ function Board() {
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle39} />
         </div>
       </div>
-      <p className="absolute font-['ThaleahFat:Medium',sans-serif] inset-[42.32%_12.09%_37.25%_17.23%] leading-[0.74] not-italic text-[#feca61] text-[37.237px] text-nowrap uppercase whitespace-pre">PROFILE</p>
+      <p className="absolute font-['ThaleahFat:Medium',sans-serif] inset-[42%_12%_38%_18%] leading-[0.74] not-italic text-[#8B4513] text-[28px] text-center text-nowrap uppercase whitespace-pre font-bold" style={{ textShadow: 'inset 0 2px 4px rgba(0,0,0,0.6)', WebkitTextStroke: '1px #654321' }}>PROFILE</p>
     </div>
   );
 }
